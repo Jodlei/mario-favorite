@@ -24,28 +24,24 @@ export const Wrap = styled.div`
   box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow-y: auto;
-`;
-
-export const Button = styled.button`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 125px;
-  height: 23px;
-  padding: 0;
-  border: none;
-  background-color: transparent;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.6;
-  cursor: pointer;
-  &:hover {
-  }
-  transition: color 1200ms cubic-bezier(0.075, 0.82, 0.165, 1);
-`;
-
-export const Text = styled.p`
-  font-weight: bolder;
   color: white;
+`;
+
+export const Text = styled.p``;
+
+export const TextPrice = styled.p`
+  color: #2243ff;
+`;
+
+export const List = styled.ul``;
+
+export const ListItem = styled.li`
+  display: flex;
+
+  :not(:last-child) {
+    margin-bottom: 10px;
+  }
+`;
+export const Image = styled.img`
+  margin-right: 5px;
 `;

@@ -12,10 +12,7 @@ export const HeartIconWrap = styled.div`
   display: flex;
   align-items: center;
   cursor: pointer;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  margin-right: 28px;
+  margin-right: 50px;
 `;
 
 export const HeartIcon = styled(Heart)`

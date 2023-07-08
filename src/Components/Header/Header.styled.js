@@ -5,7 +5,7 @@ export const HeaderBlock = styled.header`
   width: 100%;
   height: 70px;
   z-index: 10;
-  background-color: rgba(18, 18, 18, 0.1);
+  background-color: rgba(18, 18, 18, 0.4);
 `;
 
 export const HeaderWrap = styled.div`

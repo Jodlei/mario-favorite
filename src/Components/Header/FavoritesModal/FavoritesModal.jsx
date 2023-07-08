@@ -1,15 +1,25 @@
-import { Wrap } from "./FavoritesModal.styled";
+import {
+  Wrap,
+  Text,
+  List,
+  Image,
+  ListItem,
+  TextPrice,
+} from "./FavoritesModal.styled";
 import fivoriteItems from "../../../data/favorites";
 
 const FavoritesBlock = () => {
   return (
     <Wrap>
-      {fivoriteItems.map(({ image, name, price }) => (
-        <li>
-          <img src={image} alt="Venom logo" />
-          {name},{price}
-        </li>
-      ))}
+      <List>
+        {fivoriteItems.map(({ id, image, name, price }) => (
+          <ListItem key={id}>
+            <Image src={image} alt="Venom logo" />
+            <Text>{name}</Text>
+            <TextPrice>{price}</TextPrice>
+          </ListItem>
+        ))}
+      </List>
     </Wrap>
   );
 };

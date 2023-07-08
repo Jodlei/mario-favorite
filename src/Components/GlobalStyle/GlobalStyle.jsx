@@ -41,7 +41,7 @@ export const GlobalStyle = createGlobalStyle`
 
 body {
    color: white;
- background-color: #24364e;
+ background-color: #496fa0;
   margin: 0;
    font-family: 'Poppins', sans-serif;
 
@@ -78,6 +78,7 @@ ul {
   padding: 0;
   margin: 0;
 }
+
 a {
   text-decoration: none;
   color: currentColor;
@@ -88,7 +89,7 @@ a {
 }
  
 *::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(179, 176, 176, 0.3);
 }
  
 *::-webkit-scrollbar-thumb {
